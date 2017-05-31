@@ -13,6 +13,7 @@
 		89AF4C421EDEFF680013A9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89AF4C411EDEFF680013A9F8 /* Assets.xcassets */; };
 		89AF4C451EDEFF680013A9F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89AF4C431EDEFF680013A9F8 /* LaunchScreen.storyboard */; };
 		89AF4C501EDEFF680013A9F8 /* ScribeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AF4C4F1EDEFF680013A9F8 /* ScribeTests.swift */; };
+		89AF4C5E1EDF07A10013A9F8 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89AF4C5D1EDF07A10013A9F8 /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		89AF4C4B1EDEFF680013A9F8 /* ScribeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScribeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		89AF4C4F1EDEFF680013A9F8 /* ScribeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScribeTests.swift; sourceTree = "<group>"; };
 		89AF4C511EDEFF680013A9F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AF4C5D1EDF07A10013A9F8 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,8 +79,10 @@
 		89AF4C391EDEFF680013A9F8 /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				89AF4C5A1EDF072E0013A9F8 /* Model */,
+				89AF4C5B1EDF073B0013A9F8 /* View */,
+				89AF4C5C1EDF07430013A9F8 /* Controller */,
 				89AF4C3A1EDEFF680013A9F8 /* AppDelegate.swift */,
-				89AF4C3C1EDEFF680013A9F8 /* ViewController.swift */,
 				89AF4C3E1EDEFF680013A9F8 /* Main.storyboard */,
 				89AF4C411EDEFF680013A9F8 /* Assets.xcassets */,
 				89AF4C431EDEFF680013A9F8 /* LaunchScreen.storyboard */,
@@ -94,6 +98,29 @@
 				89AF4C511EDEFF680013A9F8 /* Info.plist */,
 			);
 			path = ScribeTests;
+			sourceTree = "<group>";
+		};
+		89AF4C5A1EDF072E0013A9F8 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		89AF4C5B1EDF073B0013A9F8 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				89AF4C5D1EDF07A10013A9F8 /* CircleButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		89AF4C5C1EDF07430013A9F8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				89AF4C3C1EDEFF680013A9F8 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +228,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89AF4C5E1EDF07A10013A9F8 /* CircleButton.swift in Sources */,
 				89AF4C3D1EDEFF680013A9F8 /* ViewController.swift in Sources */,
 				89AF4C3B1EDEFF680013A9F8 /* AppDelegate.swift in Sources */,
 			);
